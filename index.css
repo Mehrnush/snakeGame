@@ -1,0 +1,43 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    background: #D8BFD8;
+    
+}
+
+h1 { 
+    color: #CD5C5C;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+    margin: 0 auto;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: red;
+    border-radius: 30px; 
+    
+}
+
+
+button {
+    border-radius: 5px;
+    background-color: #8FBC8F;
+}
+
